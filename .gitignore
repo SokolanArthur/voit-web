@@ -1,0 +1,6 @@
+logs/
+*.log
+
+certbot/
+
+pg_data/
