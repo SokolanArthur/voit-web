@@ -1,6 +1,6 @@
 # VOIT Web Infrastructure
 
-  ![Deploy Status](https://github.com/SokolanArthur/voit-web/actions/workflows/deploy.yml/badge.svg)  ](https://www.voitspace.ru/)
+  [![Deploy Status](https://github.com/SokolanArthur/voit-web/actions/workflows/deploy.yml/badge.svg)](https://www.voitspace.ru/)
 
 Инфраструктура и CI/CD пайплайн для веб-проекта VOIT. Реализован базовый подход Infrastructure as Code (IaC) с автоматическим деплоем на VDS.
 
