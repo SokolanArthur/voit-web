@@ -9,9 +9,6 @@ services:
       - "3001:3001"
     volumes:
       - kuma-data:/app/data
-    dns:
-      - 8.8.8.8
-      - 1.1.1.1
 
 volumes:
   kuma-data:
