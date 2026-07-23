@@ -27,6 +27,6 @@ services:
     image: dpage/pgadmin4
     container_name: voit-pgadmin
     environment:
-      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_USER}
       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
     restart: always
