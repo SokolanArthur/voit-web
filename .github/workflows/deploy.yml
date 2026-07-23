@@ -20,7 +20,7 @@ jobs:
             git fetch origin
             git reset --hard origin/main
 
-            echo "PGADMIN_EMAIL=${{ secrets.PGADMIN_EMAIL }}" > .env
+            echo "PGADMIN_USER=${{ secrets.PGADMIN_USER }}" > .env
             echo "PGADMIN_PASSWORD=${{ secrets.PGADMIN_PASSWORD }}" >> .env
             echo "POSTGRES_USER=${{ secrets.POSTGRES_USER }}" >> .env
             echo "POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }}" >> .env
