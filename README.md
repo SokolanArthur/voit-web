@@ -9,6 +9,7 @@
 * Nginx (Reverse Proxy)
 * PostgreSQL 15 (Alpine) + pgAdmin 4
 * GitHub Actions, GitHub Secrets, Let's Encrypt, Fail2Ban
+* Uptime Kuma, ntfy.sh
 
 ## Архитектура и безопасность
 * **Изоляция БД:** PostgreSQL и pgAdmin находятся во внутренней сети Docker, внешние порты закрыты.
